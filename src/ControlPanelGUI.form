@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ControlPanelGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="65" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="6" y="20" width="1845" height="232"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <focusable value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4d7f9" class="javax.swing.JButton" binding="noteD2">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="570ce" class="javax.swing.JButton" binding="noteC2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font size="12"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="true"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="77375" class="javax.swing.JButton" binding="noteE2">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a8d33" class="javax.swing.JButton" binding="noteF2">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="e7572">
+        <constraints>
+          <grid row="3" column="64" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="a43c7" class="javax.swing.JButton" binding="noteDb2">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="37a7" class="javax.swing.JButton" binding="noteEb2">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="59cc" class="javax.swing.JButton" binding="noteGb2">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bbe93" class="javax.swing.JButton" binding="noteG2">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e9f62" class="javax.swing.JButton" binding="noteAb2">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="37887" class="javax.swing.JButton" binding="noteA2">
+        <constraints>
+          <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1abb8" class="javax.swing.JButton" binding="noteBb2">
+        <constraints>
+          <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="44baa" class="javax.swing.JButton" binding="noteB2">
+        <constraints>
+          <grid row="3" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="aed66" class="javax.swing.JButton" binding="noteC3">
+        <constraints>
+          <grid row="3" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="454e0" class="javax.swing.JButton" binding="noteDb3">
+        <constraints>
+          <grid row="3" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="db87" class="javax.swing.JButton" binding="noteD3">
+        <constraints>
+          <grid row="3" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b7dc0" class="javax.swing.JButton" binding="noteEb3">
+        <constraints>
+          <grid row="3" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b2af9" class="javax.swing.JButton" binding="noteE3">
+        <constraints>
+          <grid row="3" column="18" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ea7fa" class="javax.swing.JButton" binding="noteF3">
+        <constraints>
+          <grid row="3" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="27c82" class="javax.swing.JButton" binding="noteGb3">
+        <constraints>
+          <grid row="3" column="20" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dd4b6" class="javax.swing.JButton" binding="noteG3">
+        <constraints>
+          <grid row="3" column="21" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="51fc3" class="javax.swing.JButton" binding="noteAb3">
+        <constraints>
+          <grid row="3" column="22" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="efac4" class="javax.swing.JButton" binding="noteA3">
+        <constraints>
+          <grid row="3" column="23" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3aeb" class="javax.swing.JButton" binding="noteBb3">
+        <constraints>
+          <grid row="3" column="24" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="44878" class="javax.swing.JButton" binding="noteB3">
+        <constraints>
+          <grid row="3" column="25" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="15d14" class="javax.swing.JButton" binding="noteC4">
+        <constraints>
+          <grid row="3" column="26" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e64d" class="javax.swing.JButton" binding="noteDb4">
+        <constraints>
+          <grid row="3" column="27" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c6981" class="javax.swing.JButton" binding="noteD4">
+        <constraints>
+          <grid row="3" column="28" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="715e0" class="javax.swing.JButton" binding="noteEb4">
+        <constraints>
+          <grid row="3" column="29" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98dd0" class="javax.swing.JButton" binding="noteE4">
+        <constraints>
+          <grid row="3" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="78614" class="javax.swing.JButton" binding="noteF4">
+        <constraints>
+          <grid row="3" column="31" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d592f" class="javax.swing.JButton" binding="noteGb4">
+        <constraints>
+          <grid row="3" column="32" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a02d1" class="javax.swing.JButton" binding="noteG4">
+        <constraints>
+          <grid row="3" column="33" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3e431" class="javax.swing.JButton" binding="noteAb4">
+        <constraints>
+          <grid row="3" column="34" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a4105" class="javax.swing.JButton" binding="noteA4">
+        <constraints>
+          <grid row="3" column="35" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5aa38" class="javax.swing.JButton" binding="noteBb4">
+        <constraints>
+          <grid row="3" column="36" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9535b" class="javax.swing.JButton" binding="noteB4">
+        <constraints>
+          <grid row="3" column="37" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f40ac" class="javax.swing.JButton" binding="noteC5">
+        <constraints>
+          <grid row="3" column="38" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a9072" class="javax.swing.JButton" binding="noteDb5">
+        <constraints>
+          <grid row="3" column="39" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="296b" class="javax.swing.JButton" binding="noteD5">
+        <constraints>
+          <grid row="3" column="40" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a1c04" class="javax.swing.JButton" binding="noteEb5">
+        <constraints>
+          <grid row="3" column="41" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="889ed" class="javax.swing.JButton" binding="noteE5">
+        <constraints>
+          <grid row="3" column="42" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2bd62" class="javax.swing.JButton" binding="noteF5">
+        <constraints>
+          <grid row="3" column="43" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5009" class="javax.swing.JButton" binding="noteGb5">
+        <constraints>
+          <grid row="3" column="44" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c02a9" class="javax.swing.JButton" binding="noteG5">
+        <constraints>
+          <grid row="3" column="45" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2ab89" class="javax.swing.JButton" binding="noteAb5">
+        <constraints>
+          <grid row="3" column="46" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="93a2e" class="javax.swing.JButton" binding="noteA5">
+        <constraints>
+          <grid row="3" column="47" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f87d" class="javax.swing.JButton" binding="noteBb5">
+        <constraints>
+          <grid row="3" column="48" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="806d5" class="javax.swing.JButton" binding="noteB5">
+        <constraints>
+          <grid row="3" column="49" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7be5d" class="javax.swing.JButton" binding="noteC6">
+        <constraints>
+          <grid row="3" column="50" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="170bc" class="javax.swing.JButton" binding="noteDb6">
+        <constraints>
+          <grid row="3" column="51" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="75291" class="javax.swing.JButton" binding="noteD6">
+        <constraints>
+          <grid row="3" column="52" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bc79" class="javax.swing.JButton" binding="noteEb6">
+        <constraints>
+          <grid row="3" column="53" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e05c5" class="javax.swing.JButton" binding="noteE6">
+        <constraints>
+          <grid row="3" column="54" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ecf80" class="javax.swing.JButton" binding="noteF6">
+        <constraints>
+          <grid row="3" column="55" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b5980" class="javax.swing.JButton" binding="noteGb6">
+        <constraints>
+          <grid row="3" column="56" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2c015" class="javax.swing.JButton" binding="noteG6">
+        <constraints>
+          <grid row="3" column="57" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cdb3c" class="javax.swing.JButton" binding="noteAb6">
+        <constraints>
+          <grid row="3" column="58" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6df83" class="javax.swing.JButton" binding="noteA6">
+        <constraints>
+          <grid row="3" column="59" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9987f" class="javax.swing.JButton" binding="noteBb6">
+        <constraints>
+          <grid row="3" column="60" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoBlackKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="51896" class="javax.swing.JButton" binding="noteB6">
+        <constraints>
+          <grid row="3" column="61" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7de23" class="javax.swing.JButton" binding="noteC7">
+        <constraints>
+          <grid row="3" column="62" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="64"/>
+            <preferred-size width="15" height="64"/>
+            <maximum-size width="15" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <icon value="PianoNotes/PianoKey.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="8de08">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b40a5" class="javax.swing.JLabel" binding="pianoBottom">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="63" vsize-policy="3" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="405" height="13"/>
+            <preferred-size width="810" height="25"/>
+            <maximum-size width="810" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PIanoBottomFinal.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="64457">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="63" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="dd988" class="javax.swing.JLabel" binding="pianoSideL">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PianoSideL.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cd7cc" class="javax.swing.JLabel" binding="pianoSideR">
+        <constraints>
+          <grid row="3" column="63" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="64"/>
+            <preferred-size width="10" height="64"/>
+            <maximum-size width="10" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PianoSideL.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="89d26" class="javax.swing.JLabel" binding="pianoMiddle">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="63" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="810" height="20"/>
+            <preferred-size width="810" height="20"/>
+            <maximum-size width="810" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="PianoBase/PianoMiddle.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="9ed07" binding="noteDisplayTest" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="18" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="90" height="60"/>
+            <preferred-size width="90" height="60"/>
+            <maximum-size width="90" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1053207"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="713ce" class="javax.swing.JLabel" binding="noteDisplay">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="32" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Note"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="3cacf" class="javax.swing.JLabel" binding="pianoTopSideL">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="17" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="211" height="60"/>
+            <preferred-size width="211" height="60"/>
+            <maximum-size width="211" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <icon value="PianoBase/PianoTopSideL1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f918c" class="javax.swing.JLabel" binding="pianoSplit">
+        <constraints>
+          <grid row="1" column="25" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="60"/>
+            <preferred-size width="15" height="60"/>
+            <maximum-size width="15" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PianoSplit4 - kopie.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="52dc2">
+        <constraints>
+          <grid row="1" column="26" row-span="1" col-span="21" vsize-policy="7" hsize-policy="7" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="260" height="55"/>
+            <preferred-size width="260" height="55"/>
+            <maximum-size width="260" height="55"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1428329"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <foreground color="-1748765"/>
+          <horizontalScrollBarPolicy value="31"/>
+          <toolTipText value=""/>
+          <verticalScrollBarPolicy value="21"/>
+          <visible value="true"/>
+          <wheelScrollingEnabled value="true"/>
+        </properties>
+        <border type="empty">
+          <font/>
+          <title-color color="-2104859"/>
+        </border>
+        <children>
+          <component id="ddf2a" class="javax.swing.JTextArea" binding="charDisplay">
+            <constraints/>
+            <properties>
+              <background color="-1053207"/>
+              <dropMode value="USE_SELECTION"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font name="Comic Sans MS" size="10" style="1"/>
+              <foreground color="-16777216"/>
+              <lineWrap value="true"/>
+              <text value="Made by Daniel Matoušek"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="83586" class="javax.swing.JLabel" binding="pianoTopSideR2">
+        <constraints>
+          <grid row="1" column="59" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="65" height="60"/>
+            <preferred-size width="65" height="60"/>
+            <maximum-size width="65" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PianoTopSideR6.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7f74c" class="javax.swing.JSlider" binding="volumeSlider">
+        <constraints>
+          <grid row="1" column="56" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="60"/>
+            <preferred-size width="35" height="60"/>
+            <maximum-size width="35" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <focusable value="false"/>
+          <foreground color="-16777216"/>
+          <inverted value="false"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="a1e0" class="javax.swing.JLabel" binding="pianoTopSideR1">
+        <constraints>
+          <grid row="1" column="47" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="60"/>
+            <preferred-size width="45" height="60"/>
+            <maximum-size width="45" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="PianoBase/PianoTopSideR4 - kopie.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="b3f71" binding="volumePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="51" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="65" height="60"/>
+            <preferred-size width="65" height="60"/>
+            <maximum-size width="65" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2fe1b" class="javax.swing.JLabel" binding="volumeLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Visitor TT1 BRK" size="36" style="1"/>
+              <foreground color="-10958035"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="50%"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="5745f" class="javax.swing.JComboBox" binding="instSelector">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="10" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="20"/>
+            <preferred-size width="60" height="20"/>
+            <maximum-size width="60" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <alignmentY value="0.5"/>
+          <focusable value="false"/>
+          <maximumRowCount value="3"/>
+          <model>
+            <item value="Piano"/>
+            <item value="Organ"/>
+            <item value="Harp"/>
+          </model>
+        </properties>
+      </component>
+      <component id="82d2" class="javax.swing.JLabel" binding="pianoTop">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="58" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="750" height="20"/>
+            <preferred-size width="750" height="20"/>
+            <maximum-size width="750" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="PianoBase/PianoTop.png"/>
+          <text value=""/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
